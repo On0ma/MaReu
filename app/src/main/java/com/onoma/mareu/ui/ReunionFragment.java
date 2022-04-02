@@ -86,7 +86,6 @@ public class ReunionFragment extends Fragment implements ReunionRecyclerViewAdap
         searchView.setOnQueryTextListener(new SearchView.OnQueryTextListener() {
             @Override
             public boolean onQueryTextSubmit(String query) {
-                // TODO voir pour fermer le clavier
                 mAdapter.getFilter().filter(query);
                 searchView.clearFocus();
                 return true;
