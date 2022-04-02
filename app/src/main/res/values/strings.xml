@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Mareu</string>
+    <string name="search_hint">Rechercher par salle ou date</string>
+    <string name="subject_hint">Sujet de la réunion</string>
+    <string name="time_hint">Heure de la réunion</string>
+    <string name="attendee_hint">Participants</string>
+    <string name="add_reunion_button">Valider</string>
+</resources>
